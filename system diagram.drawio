@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2021-02-12T04:45:41.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63" etag="DiV1PdJw1XCfCGB6pXNE" version="14.3.1" type="github">
+  <diagram id="mfNoVJrlFyGqlS51hNdY" name="process flow">
+    <mxGraphModel dx="1090" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-1" target="QYIhzdTI2tLNxb6TSlcx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-1" value="Dataset" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-2" target="QYIhzdTI2tLNxb6TSlcx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-2" value="Find correlations&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-4" target="QYIhzdTI2tLNxb6TSlcx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-4" value="Signal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-5" target="QYIhzdTI2tLNxb6TSlcx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-5" value="Feature Extraction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-10" target="QYIhzdTI2tLNxb6TSlcx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-10" value="(Recursive Feature Elimination) &lt;br&gt;Feature selection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-12" target="QYIhzdTI2tLNxb6TSlcx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-12" value="Scaling and Normalization" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-14" target="QYIhzdTI2tLNxb6TSlcx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-14" value="(KNN)&lt;br&gt;Create clusters&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-16" target="QYIhzdTI2tLNxb6TSlcx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-16" value="Split into train test&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-18" value="For each cluster" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-20" target="QYIhzdTI2tLNxb6TSlcx-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-20" value="Train over multiple models&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-22" target="QYIhzdTI2tLNxb6TSlcx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-22" value="Select best model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-24" target="QYIhzdTI2tLNxb6TSlcx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-24" value="Grid Search best hyperparameters for best model&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Train%20over%20multiple%20models%26amp%3Bnbsp%3B%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22590%22%20y%3D%22370%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-26" value="Use it for Prediction" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QYIhzdTI2tLNxb6TSlcx-28" target="QYIhzdTI2tLNxb6TSlcx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QYIhzdTI2tLNxb6TSlcx-28" value="Outlier removal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
